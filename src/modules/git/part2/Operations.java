@@ -23,8 +23,4 @@ public class Operations {
     public static int multiplication(int a, int b) {
         return a * b;
     }
-
-    public static int sqrt(int a) {
-        return a * a;
-    }
 }
