@@ -5,6 +5,7 @@ public class Operations {
         System.out.println(add(1, 2));
         System.out.println(subtraction(1, 2));
         System.out.println(division(1, 2));
+        System.out.println(multiplication(1, 2));
     }
 
     public static int add(int a, int b) {
@@ -17,5 +18,9 @@ public class Operations {
 
     public static int division(int a, int b) {
         return a / b;
+    }
+
+    public static int multiplication(int a, int b) {
+        return a * b;
     }
 }
