@@ -9,8 +9,14 @@ public class Operations {
     }
 
     public static int add(int a, int b) {
+        System.out.println("This is add method for 2 params");
         System.out.println("This is add method");
         return a + b;
+    }
+
+    public static int add(int a, int b, int c) {
+        System.out.println("This is add method for 3 params");
+        return a + b + c;
     }
 
     public static int subtraction(int a, int b) {
